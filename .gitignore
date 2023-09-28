@@ -102,5 +102,5 @@ ENV/
 
 # mypy
 .mypy_cache/
-p1_navigation/Banana_Linux/
+Banana_Linux/
 *.zip
