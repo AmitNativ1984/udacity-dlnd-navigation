@@ -94,6 +94,10 @@ After experimenting, the two most influential parameters found were the minimal 
 
 The success criteria of the project is to achieve an average score of +13 over 100 consecutive episodes. The agent was able to achieve this after 392 episodes.
 
+And here is the result of running the trained agent:
+![trained_agent](assets/trained_agent.gif)
+
+
 ## Ideas for Future Work
 1. To avoid the perceived oscillation blue bananas, we can train the agent with a state vector that includes pervious states as well. For example, the last 4 states. This will help the agent detect the oscillation, and avoid it.
 2. Additional twicks to the classic DQN algorithm can be applied, such as Double DQN, Dueling DQN, and Prioritized Experience Replay. These twicks can help the agent learn faster, and achieve better results.
